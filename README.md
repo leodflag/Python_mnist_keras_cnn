@@ -16,7 +16,7 @@ This is a project about digital picture classification. (used Keras and TensorFl
     6. 訓練模型
     7. 衡量模型訓練誤差
 ## CNN網路架構
-![image](picture or gif url)
+![image](https://github.com/leodflag/Keras_CNN/blob/master/CNN_mnist.png)
 ## 關閉GPU，使用CPU運算
     import os
     os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
