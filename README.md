@@ -1,4 +1,4 @@
-# Keras_CNN
+# Python_mnist_keras_cnn
 This is a project about digital picture classification. (used Keras and TensorFlow)
 ## 目標
     用CNN訓練mnist手寫數據集
