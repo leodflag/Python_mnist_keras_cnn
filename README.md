@@ -6,7 +6,8 @@ This is a project about digital picture classification. (used Keras and TensorFl
     mnist為手寫數字0-9的黑白圖片數據集。
     圖片與對應標籤方面，數量為training data：55000筆，validation data：5000; 僅有圖片的test data：10000筆; 
     每張黑白圖片大小為[1,28,28,1]（張,寬,長,通道），有784個像素(pixels)，每個像素值都是數字0-255（0黑255白）。
-    標籤與圖片的手寫數字對應，如圖片內為手寫數字5，標籤就設5，0-9種手寫圖片就有10個標籤，可用list儲存，如圖</br>片1,5,8,6,4對應標籤就是label=[1,5,8,6,4]
+    標籤與圖片的手寫數字對應，如圖片內為手寫數字5，標籤就設5，0-9種手寫圖片就有10個標籤，可用list儲存，
+    如圖片1,5,8,6,4對應標籤就是label=[1,5,8,6,4]
 ## 虛擬碼
     1. 下載mnist數據集，分成training data 跟test data
     2. 先處理圖片，將其轉換成列表形式，並透過標準化將所有像素值變成0-1之間
